@@ -27,6 +27,12 @@ La UI solo muestra una lista con los leads que han llegado. Se puede implementar
 
 Se debe crear una página de prueba con un formulario para capturar leads. Al hacer submit sobre el formulario se debe enviar un request a la api y luego de recibida una respuesta se debe mostrar un mensaje de éxito o fracaso al usuario que llenó el formulario.
 
+## Nota
+
+Esta es una espeficación intencionalmente abierta y sin detalles. Tu misión es implementar aquellos aspectos que por tu experiencia y conocimiento piensas que son importantes y que no están presentes. Un ejemplo de esto es la validación del formulario. Qué otras cosas te parece que hacen falta en esta especificación ?
+Se debe utilizar rails v4.x.
+Puedes utilizar cualquier gem que desees.
+
 ## Modo de entrega
 
 Para realizar esta tareas tienes que hacer un fork de este repositorio y subir el proyecto funcionando a heroku.
