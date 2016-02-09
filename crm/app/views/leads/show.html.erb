@@ -1,0 +1,24 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Project name:</strong>
+  <%= @lead.project_name %>
+</p>
+
+<p>
+  <strong>Email:</strong>
+  <%= @lead.email %>
+</p>
+
+<p>
+  <strong>Object:</strong>
+  <%= @lead.object %>
+</p>
+
+<p>
+  <strong>Timestamp:</strong>
+  <%= @lead.timestamp %>
+</p>
+
+<%= link_to 'Edit', edit_lead_path(@lead) %> |
+<%= link_to 'Back', leads_path %>

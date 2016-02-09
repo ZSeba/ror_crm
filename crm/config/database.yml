@@ -1,18 +1,16 @@
-default: &default
-  adapter: postgresql
-  encoding: unicode
-  pool: 5
-
 development:
-  <<: *default
-  database: projectname_development
-
-test:
-  <<: *default
-  database: projectname_test
+  adapter: postgresql
+  database: development
+  username: Ivonne # replace this with your own user name
+  password: root # replace this with your own password
+  host: localhost
+  encoding: UTF8
+  pool: 5
+  timeout: 5000
 
 production:
-  <<: *default
-  database: projectname_production
-  username: 
-  password: 
+  adapter: postgresql
+  encoding: unicode
+  # For details on connection pooling, see rails configuration guide
+  # http://guides.rubyonrails.org/configuring.html#database-pooling
+  pool: 5
